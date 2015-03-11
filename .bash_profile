@@ -17,6 +17,7 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 
 alias vi=vim
 alias top='top -a -u'
+alias ll='ls -al'
 
 ## Git commands
 alias log='git log'
