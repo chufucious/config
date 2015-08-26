@@ -13,7 +13,7 @@ export PS1="\n\[$(tput bold)\]\[$(tput setaf 5)\]➜ \[$(tput setaf 6)\]\w\[$(tp
 export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
 
 function parse_git_branch {
-  git branch --no-color 2> /dev/null | sed -e "/^[^*]/d' -e 's/* \(.*\)/(\1)/"
+  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
