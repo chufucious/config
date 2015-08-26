@@ -19,7 +19,7 @@ alias vi=vim
 alias top='top -a -u'
 alias ll='ls -al'
 alias resource='source ~/.bash_profile && echo "Done!"'
-alias cur='parse_git_branch | sed -e 's/(//g' | sed -e 's/)//g' | tr -d '\n' | pbcopy'
+alias cur="parse_git_branch | sed -e 's/(//g' | sed -e 's/)//g' | tr -d '\n' | pbcopy"
 
 ## Git commands
 alias log='git log'
