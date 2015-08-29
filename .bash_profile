@@ -16,7 +16,7 @@ alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 
-alias sub='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl' 
+alias sub='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl' 
 alias vi=vim
 alias top='top -a -u'
 alias ll='ls -al'
