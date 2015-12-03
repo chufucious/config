@@ -22,6 +22,8 @@ alias top='top -a -u'
 alias ll='ls -al'
 alias resource='source ~/.bash_profile && echo "Done!"'
 alias cur="parse_git_branch | sed -e 's/(//g' | sed -e 's/)//g' | tr -d '\n' | pbcopy"
+alias cdandroid='cd /Users/eric/projects/current-android/current/src/main/res'
+alias cdios='cd /Users/eric/projects/capturelive-ios-assets/assets'
 
 ## Git commands
 alias log='git log'
