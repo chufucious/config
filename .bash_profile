@@ -14,9 +14,9 @@ export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
 
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias server='python -m SimpleHTTPServer 8080'
 
-
-alias sub='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl' 
+alias sub='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias vi=vim
 alias top='top -a -u'
 alias ll='ls -al'
