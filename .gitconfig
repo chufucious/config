@@ -34,3 +34,4 @@
 	br  = branch
 	bra = branch -a
 	aa  = add -A
+	up = pull --rebase --autostash
