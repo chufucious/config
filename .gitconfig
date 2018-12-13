@@ -36,4 +36,4 @@
 	brv = branch -vv
 	aa  = add -A
 	up = pull --rebase --autostash
-  	prune-branches = !git remote prune origin && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs -r git branch -d
+  	prune-branches = git fetch --all -p; git branch -vv | grep ": gone]" | awk '{ print $1 }' | xargs -n 1 git branch -d
