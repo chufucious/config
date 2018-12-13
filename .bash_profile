@@ -16,14 +16,14 @@ alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias server='python -m http.server'
 
-alias sub='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias vi=vim
 alias top='top -a -u'
 alias ll='ls -al'
 alias resource='source ~/.bash_profile && echo "Done!"'
 alias cur="parse_git_branch | sed -e 's/(//g' | sed -e 's/)//g' | tr -d '\n' | pbcopy"
-alias cdandroid='cd /Users/eric/projects/current-android/current/src/main/res'
-alias cdios='cd /Users/eric/projects/capturelive-ios-assets/assets'
+
+## Hub commands
+alias git="hub"
 
 ## Git commands
 alias log='git log'
