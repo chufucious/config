@@ -21,7 +21,7 @@ alias top='top -a -u'
 alias ll='ls -al'
 alias resource='source ~/.bash_profile && echo "Done!"'
 alias cur="parse_git_branch | sed -e 's/(//g' | sed -e 's/)//g' | tr -d '\n' | pbcopy"
-alias p='cd $~/projects'
+alias p='cd ~/projects'
 
 ## Hub commands
 alias git="hub"
